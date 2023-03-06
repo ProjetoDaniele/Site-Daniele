@@ -1,0 +1,82 @@
+body{
+    margin: 0%;
+}
+header{
+    
+    height: 70px;
+
+    
+  
+   
+   
+}
+nav{
+    height: 70px;
+    padding: 5px;
+    background-color: rgb(20, 60, 97);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.cabecalho a{
+
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    font-family: sans-serif;
+   margin: 5px;
+   border-radius: 8px;
+}
+.cabecalho a:hover{
+    transition: 0.1s;
+    background-color: rgb(218, 214, 214);
+
+
+}
+.cabecalho{
+ float: right;
+ padding: 10px;
+ 
+}
+.logo{
+    color: aliceblue;
+display: flex; 
+
+
+
+}
+aside{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.conteudo{
+    margin-top: 80px;
+    background-color: rgb(185, 181, 181);
+    height: 600px;
+    width: 400px;
+    margin: 40px;
+}
+.aside{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+footer{
+    background-color: rgb(20, 60, 97);
+    height: 70px;
+    padding: 5px;
+}
+ nav #imgajuda{
+ height: 80px;;
+  display: block;
+  float: left;
+  scale:0.5;
+}
+#imgajuda:hover{
+    transition: 0.6s;
+    scale: 0.6;
+}
